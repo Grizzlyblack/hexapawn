@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.active {
+	@apply border border-green-500 p-1
+}
+
+.moveable {
+	@apply border border-blue-500 p-1
+}
+
+.button {
+	@apply border border-gray-700 px-4 py-1 rounded-lg
+}
+
+.card {
+	@apply bg-gray-200 p-10 rounded-lg shadow-xl text-center w-1/2 flex flex-col items-center
+}
+
+.input {
+	@apply border border-gray-500 mt-3 rounded-lg text-center leading-relaxed
+}
